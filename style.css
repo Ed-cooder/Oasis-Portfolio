@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: teal;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: teal;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .logo {
+    max-height: 10px;
+    position: absolute;
+    right: 100px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration-color: transparent;
+  }
+
+header {
+    background-color: white;
+    color: teal;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+
+section {
+    padding: 20px;
+}
+
+.home {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.home-content{
+    font-size: 1.2rem;
+}
+
+.home-content h1 {
+    font-size: 2.3rem;
+    color: yellow;
+}
+
+.home-content img {
+    max-width: 10%;
+    position: absolute;
+    right: 40px;
+    max-width: 480px;
+    max-height: 40vh;
+    border-radius: 20%  
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    text-decoration-line: none;
+    font-weight: bolder;
+}
+
+#about h2 {
+    font-size: 2.3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ .skills-section {
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill {
+  display: inline-block;
+  padding: 15px 20px;
+  border: 2px solid teal;
+  border-radius: 10px;
+  background-color: gold;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.skill i {
+  color: black;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px #092511;
+}
+
+.project-image {
+  width: 85%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: gold;
+}
+
+.project-description {
+  font-size: 14px;
+  color: black;
+}
+
+#h3 {
+  color: teal;
+  background-color: white;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+#resume h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.resume p {
+  color: gold;
+  border-radius: 10%;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+#contact h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  color: gold;
+}
+
+footer {
+    background-color: white;
+    color: teal;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
